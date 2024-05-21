@@ -10,7 +10,7 @@ th{
 }
 .main{
     background-color:#26619c;
-    width: 40%;
+    width: 80%;
   padding: 10px;
   border-radius: 12px;
 }
@@ -20,7 +20,7 @@ h2{
     color: #ffffff;
 }
 table{
-    width: 80%;
+    width: 100%;
     text-align: center;
 }
 body{

@@ -50,7 +50,7 @@ $result = $conn->query($sql);
             echo "<tr>
                 <td>".$row['name']."</td>
                 <td>".$row['price']."</td>
-                <td><img src='uploads/".$row['image']."' width='100'></td>
+                <td><img src='image/".$row['image']."' width='100'></td>
                 <td>
                     <a href='edit.php?id=".$row['id']."'>Edit</a>
                     <a href='view.php?delete=".$row['id']."'>Delete</a>
