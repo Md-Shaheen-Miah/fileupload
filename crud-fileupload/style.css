@@ -17,7 +17,7 @@ th{
 
 h2{
     text-align: center;
-    color: #ffffff;
+    color:#004b49;
 }
 table{
     width: 100%;
@@ -26,4 +26,12 @@ table{
 body{
     
     background-color: #91a3b0;
+}
+
+form{
+    background-color:#b4c2c2 ;
+    width: 30%;
+    padding: 10px;
+    border-radius: 12px;
+    
 }

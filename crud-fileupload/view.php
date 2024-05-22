@@ -33,6 +33,7 @@ $result = $conn->query($sql);
 <body>
 
 <h2>Uploaded Files</h2>
+<h2><a href="insert.php">Insert</a></h2>
 <center>
     <div class="main">
 <table>

@@ -41,17 +41,22 @@ $conn->close();
 <html>
 <head>
     <title>File Upload Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h2>Upload File</h2>
-
+<center>
 <form action="insert.php" method="post" enctype="multipart/form-data">
-    Name: <input type="text" name="name" required><br>
-    Price: <input type="text" name="price" required><br>
-    Image: <input type="file" name="image" required><br>
+    <label for="">Name</label>
+    <input type="text" name="name" required><br><br>
+    <label for="">Price</label>
+    <input type="text" name="price" required><br><br>
+    <label for="" style="margin-left:15%;">Image</label>
+    <input type="file" name="image" required><br><br>
     <input type="submit" name="submit" value="Upload">
 </form>
+</center>
 
 </body>
 </html>

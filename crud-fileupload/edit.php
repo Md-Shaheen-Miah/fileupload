@@ -46,18 +46,23 @@ if (isset($_POST['submit'])) {
 <html>
 <head>
     <title>Edit File</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h2>Edit File</h2>
-
+<center>
 <form action="edit.php" method="post" enctype="multipart/form-data">
     <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
-    Name: <input type="text" name="name" value="<?php echo $row['name']; ?>" required><br>
-    Price: <input type="text" name="price" value="<?php echo $row['price']; ?>" required><br>
-    Image: <input type="file" name="image"><br>
+    <label for="">Name</label>
+    <input type="text" name="name" value="<?php echo $row['name']; ?>" required><br><br>
+    <label for="">Price</label>
+    <input type="text" name="price" value="<?php echo $row['price']; ?>" required><br><br>
+    <label for="" style="margin-left:15%;">Image</label>
+    <input type="file" name="image"><br><br>
     <input type="submit" name="submit" value="Update">
 </form>
+</center>
 
 </body>
 </html>
